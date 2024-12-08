@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-position-y: top;
     background-position-x: center;
+    background-repeat: no-repeat;
 }
 h1  {
     color:blue
