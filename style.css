@@ -1,0 +1,43 @@
+body {
+    background-color: paleturquoise;
+    background-image: url('https://images6.alphacoders.com/134/1345678.png');
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center;
+}
+h1  {
+    color:blue
+}
+h2 {
+    color: darkblue;
+}
+h3 {
+    font-style: oblique;
+    color: rgb(44, 97, 243);
+}
+/* Basic button styles */
+.interactive-button {
+    background-color: #a9b3b6; /* Green background */
+    border: none; /* Remove default border */
+    color: rgb(0, 0, 0); /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+}
+
+/* Hover state */
+.interactive-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/* Active state */
+.interactive-button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    transform: scale(1.05); /* Slightly shrink the button on click */
+}
